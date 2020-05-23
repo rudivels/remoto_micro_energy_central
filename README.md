@@ -33,7 +33,7 @@ Desafios institucionais e sustentabilidade.
 
 Este trabalho focará inicialmente em micro usina, hidrelétrica, monitoramento da operação e na medida que a pesquisa avança os demais itens serão adicionados. 
 
-# 1. Central de monitaramento e acionamento remota
+# 1. Central de monitaramento e acionamento remoto
 
 O projeto de um central de monitoramento e acionamento remoto de uma micro unidade geradora de energia elétrica para localidades remotas. 
 Este central tem como objetivo monitorar a geração de energia elétrica e sua qualidade (potência, energia, fator de potência, interrupções de fornecimento, etc), e mandar essas informações via internet para um computador central que serão intergradas num sistema Supervisório Control and Data Aquisition (Scada).
@@ -45,7 +45,8 @@ Este monitoramente está descrito no repositório em <https://github.com/rudivel
 Além disso, o central tem que perimitir a configuração e/ou reprogramação remota de um controlador de carga (load controller) dessa micro unidade geradora de energia elétrica. Este controlador de carga é implementado num hardware dedicado com microcontrolador Arduino que controle a rede trifásico de um pico central hidrelétrico por meio de um banco de triacs. ainda será detalhada em repostório próprio. Os detalhes dessa implementação estão no repositório <https://github.com/rudivels/Controlador_carga_3fas> [link](Controlador_Carga_TriFasico)
 
 
-# 3. Atualização remoto do programa de controle
+# 3. Atualização remota do algoritmo de controle
 
 Inotools
+
 Acesso remoto à computador com IP dinâmico via Dataplicity
