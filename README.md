@@ -29,23 +29,34 @@ Desafios tecnologicas
 - Monitoramento da operação 
 - Capacitação de operadores locais
 
-Desafios institucionais e sustentabilidade. 
+A operação no dia-a-dia dessas instalações deve realizado por técnicos e operadores locais. Entretanto, há a necessidade de acompanhamento do funcionamento por técnicos especialiados. Assim por meio de ligar os centrais de monitoramento nas localidades a um sistema supervisório. Acompanhamento de técnicos especilizados, podendo fazer o planejamento das manutenção preditivos baseado nos dados operacionais das instalações.  
 
-Este trabalho focará inicialmente em micro usina, hidrelétrica, monitoramento da operação e na medida que a pesquisa avança os demais itens serão adicionados. 
 
-# 1. Central de monitaramento e acionamento remoto
+# 1. Configuração geral do sistema
+
+Diagrama geral do sistema. 
+![](diagrama_usina_scada.jpg)
+
+Supervisory Control and Data Aquisition (Scada)
+
+Este trabalho focará inicialmente em micro usina, hidrelétrica, monitoramento da operação e na medida que a pesquisa avança os demais itens serão adicionados.
+
+.
+
+
+# 2. Central de monitaramento e acionamento remoto
 
 O projeto de um central de monitoramento e acionamento remoto de uma micro unidade geradora de energia elétrica para localidades remotas. 
 Este central tem como objetivo monitorar a geração de energia elétrica e sua qualidade (potência, energia, fator de potência, interrupções de fornecimento, etc), e mandar essas informações via internet para um computador central que serão intergradas num sistema Supervisório Control and Data Aquisition (Scada).
 Este monitoramente está descrito no repositório em <https://github.com/rudivels/MicroHydro_Scada> 
 [link](MicroHydro_Scada/README.md)
 
-# 2. Controlador de carga 
+# 3. Controlador de carga 
 
 Além disso, o central tem que perimitir a configuração e/ou reprogramação remota de um controlador de carga (load controller) dessa micro unidade geradora de energia elétrica. Este controlador de carga é implementado num hardware dedicado com microcontrolador Arduino que controle a rede trifásico de um pico central hidrelétrico por meio de um banco de triacs. ainda será detalhada em repostório próprio. Os detalhes dessa implementação estão no repositório <https://github.com/rudivels/Controlador_carga_3fas> [link](Controlador_Carga_TriFasico)
 
 
-# 3. Atualização remota do algoritmo de controle
+# 4. Atualização remota do algoritmo de controle
 
 Inotools
 
