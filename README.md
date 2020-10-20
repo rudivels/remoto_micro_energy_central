@@ -2,7 +2,7 @@
 
 Rudivels @ março 2020
 
-`/Users/rudi/src/Sistema_monitoramento_remoto/Central_remota_usina`
+`/Users/rudi/Documentos/GitHub/Central_remota_usina`
 
 # Apresentação
 
